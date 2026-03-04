@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marianna Fortes - Estudante | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <a href="#" class="logo">&lt;Dev/Marianna Fortes&gt;</a>
+    <nav class="nav">
+        </nav>
+
+    <div class="lang-selector">
+        <button id="lang-br" class="lang-btn active-lang" data-lang="pt" title="Português">
+            🇧🇷 </button>
+        <span>|</span>
+        <button id="lang-en" class="lang-btn" data-lang="en" title="English">
+            🇺🇸 </button>
+    </div>
+
+    <button id="mode-toggle" title="Alternar Modo Escuro/Claro">
+        <i class="fas fa-sun"></i> 
+    </button>
+</header>
+
+<body>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="greeting" data-key="heroGreeting">Olá, eu sou</p>
+        <h1 data-key="heroName">Marianna Fortes</h1>
+        <p class="bio" data-key="heroBio">Biomedica, especialização em Patologia e Perita criminal .</p>
+        <a href="#projetos" class="btn primary-btn" data-key="heroButton">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills section">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <p>Biomedicina</p>
+                <div class="bar-container"><div class="bar" data-percent="95"></div></div>
+            </div>
+            <div class="skill-item">
+                <p>Patologia</p>
+                <div class="bar-container"><div class="bar" data-percent="85"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Pericia criminal</p>
+                <div class="bar-container"><div class="bar" data-percent="75"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Tecnico em auxiliar de Enfermagem e Necropsia</p>
+                <div class="bar-container"><div class="bar" data-percent="80"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+        <h2>Meus Projetos de Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Mapeamento Molecular de Doenças Hematológicas</h3>
+                    <p>Análise laboratorial avançada para identificação precoce de alterações sanguíneas e diagnóstico preciso.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Documentação</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i>Pesquisa</a>
+                       <img src="images.jpg" alt="">
+                    </div>
+                </div>
+            </div>                                                                                                                                                                                                                                                                                                                                          
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Análise Forense de Vestígios Biológicos em Cena de Crime</h3>
+                    <p>Aplicação de técnicas biomédicas para indentificação e preservação de evidências genéticas.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Documentação</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Pesquisa</a>
+                    <img src="download.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Estudo Histopatológico de Lesões Tumorais</h3>
+                    <p>Investigação microscópia de tecidos para compreensão da progressão celular e definição diagnóstica.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Documentação </a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Pesquisa</a>
+                        <img src="images (1).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact section">
+        <h2>Vamos Trabalhar Juntos?</h2>
+        <p>Entre em contato para colaborações, projetos científicos ou parcerias academicas.</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+            <p id="form-message" class="message-feedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Marianna De Oliveira Fortes. Feito com paixão e pesquisas.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
